@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "postinstall": "husky install",
     "format": "prettier --cache --write '**/*.{ts,tsx,js,jsx}'",
-    "lint": "eslint --cache '**/*.{ts,tsx, js, jsx}'"
+    "lint": "eslint --cache '**/*.{ts,tsx,js,jsx}'"
   },
   "eslintConfig": {
     "extends": "react-app"
