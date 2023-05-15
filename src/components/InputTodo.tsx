@@ -4,14 +4,17 @@ import { useCallback, useEffect, useState } from 'react';
 import { createTodo } from '../api/todo';
 import useFocus from '../hooks/useFocus';
 
-import { Todo } from '../@types/todo';
+import { useSearchDispatch, useSearchState } from '../contexts/SearchContext';
+import SearchIcon from './SearchIcon';
 
-type InputTodoProps = {
-  setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
-};
+interface SearchInputProps {
+  onFocus: React.FocusEventHandler<HTMLInputElement>;
+}
 
-const InputTodo = ({ setTodos }: InputTodoProps) => {
-  const [inputText, setInputText] = useState('');
+const InputTodo = ({ onFocus }: SearchInputProps) => {
+  const { inputText } = useSearchState();
+
+  const { changeInputText } = useSearchDispatch();
   const [isLoading, setIsLoading] = useState(false);
   const { ref, setFocus } = useFocus();
 
@@ -20,6 +23,7 @@ const InputTodo = ({ setTodos }: InputTodoProps) => {
   }, [setFocus]);
 
   const handleSubmit = useCallback(
+    // eslint-disable-next-line consistent-return
     async (e: { preventDefault: () => void }) => {
       try {
         e.preventDefault();
@@ -35,7 +39,7 @@ const InputTodo = ({ setTodos }: InputTodoProps) => {
         const { data } = await createTodo(newItem);
 
         if (data) {
-          return setTodos((prev) => [...prev, data]);
+          return changeInputText(data);
         }
       } catch (error) {
         // eslint-disable-next-line no-console
@@ -43,26 +47,31 @@ const InputTodo = ({ setTodos }: InputTodoProps) => {
         // eslint-disable-next-line no-alert
         alert('Something went wrong.');
       } finally {
-        setInputText('');
+        changeInputText('');
         setIsLoading(false);
       }
-      return null;
     },
-    [inputText, setTodos],
+    [inputText, changeInputText],
   );
 
+  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    changeInputText(e.target.value);
+  };
+
   return (
-    <form className="form-container" onSubmit={handleSubmit}>
+    <form className="form-container">
+      <SearchIcon />
       <input
         className="input-text"
         placeholder="Add new todo..."
         ref={ref}
         value={inputText}
-        onChange={(e) => setInputText(e.target.value)}
+        onChange={onChange}
         disabled={isLoading}
+        onFocus={onFocus}
       />
       {!isLoading ? (
-        <button className="input-submit" type="submit">
+        <button className="input-submit" type="submit" onClick={handleSubmit}>
           <FaPlusCircle className="btn-plus" />
         </button>
       ) : (

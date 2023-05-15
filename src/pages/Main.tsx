@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 
 import Header from '../components/Header';
-import InputTodo from '../components/InputTodo';
 import TodoList from '../components/TodoList';
-import { getTodoList } from '../api/todo';
+import Searchbar from '../components/Searchbar';
 
+import { getTodoList } from '../api/todo';
 import { Todo } from '../@types/todo';
 
 const Main = () => {
@@ -21,7 +21,7 @@ const Main = () => {
     <div className="container">
       <div className="inner">
         <Header />
-        <InputTodo setTodos={setTodoListData} />
+        <Searchbar />
         <TodoList todos={todoListData} setTodos={setTodoListData} />
       </div>
     </div>
