@@ -24,6 +24,8 @@ module.exports = {
       },
     ],
     'react/jsx-no-constructed-context-values': 'off',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'warn',
   },
   overrides: [
     {

@@ -13,9 +13,9 @@ const baseInstance = axios.create({
 baseInstance.interceptors.response.use(({ data }) => data);
 
 const apiRequest = {
-  get: (url, request) => baseInstance.get(url, request),
-  delete: (url, request) => baseInstance.delete(url, request),
-  post: (url, data, config) => baseInstance.post(url, data, config),
+  get: (url: string) => baseInstance.get(url),
+  delete: (url: string) => baseInstance.delete(url),
+  post: (url: string, data: { title: string }) => baseInstance.post(url, data),
 };
 
 export default apiRequest;

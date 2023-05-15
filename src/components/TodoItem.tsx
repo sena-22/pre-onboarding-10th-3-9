@@ -3,7 +3,13 @@ import { useCallback, useState } from 'react';
 
 import { deleteTodo } from '../api/todo';
 
-const TodoItem = ({ id, title, setTodos }) => {
+type TodoItemProps = {
+  id: number;
+  title: string;
+  setTodos: React.Dispatch<React.SetStateAction<any[]>>;
+};
+
+const TodoItem = ({ id, title, setTodos }: TodoItemProps) => {
   const [isLoading, setIsLoading] = useState(false);
 
   const handleRemoveTodo = useCallback(async () => {
@@ -25,7 +31,7 @@ const TodoItem = ({ id, title, setTodos }) => {
       <span>{title}</span>
       <div className="item-option">
         {!isLoading ? (
-          <button onClick={() => handleRemoveTodo()}>
+          <button type="submit" onClick={() => handleRemoveTodo()}>
             <FaTrash className="btn-trash" />
           </button>
         ) : (
