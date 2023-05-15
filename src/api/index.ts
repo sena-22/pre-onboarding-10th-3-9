@@ -16,6 +16,7 @@ const apiRequest = {
   get: (url: string) => baseInstance.get(url),
   delete: (url: string) => baseInstance.delete(url),
   post: (url: string, data: { title: string }) => baseInstance.post(url, data),
+  search: (url: string) => baseInstance.get(url),
 };
 
 export default apiRequest;
