@@ -5,13 +5,13 @@ import { createTodo } from '../api/todo';
 import useFocus from '../hooks/useFocus';
 
 import { useSearchDispatch, useSearchState } from '../contexts/SearchContext';
+import SearchIcon from './SearchIcon';
 
 interface SearchInputProps {
   onFocus: React.FocusEventHandler<HTMLInputElement>;
 }
 
 const InputTodo = ({ onFocus }: SearchInputProps) => {
-  // const [inputText, setInputText] = useState("")
   const { inputText } = useSearchState();
 
   const { changeInputText } = useSearchDispatch();
@@ -60,6 +60,7 @@ const InputTodo = ({ onFocus }: SearchInputProps) => {
 
   return (
     <form className="form-container">
+      <SearchIcon />
       <input
         className="input-text"
         placeholder="Add new todo..."
