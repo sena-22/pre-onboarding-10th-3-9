@@ -3,7 +3,7 @@ import { Todo } from '../@types/todo';
 
 type TodoListProps = {
   todos: Todo[];
-  setTodos: React.Dispatch<React.SetStateAction<any[]>>;
+  setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
 };
 
 const TodoList = ({ todos, setTodos }: TodoListProps) => {

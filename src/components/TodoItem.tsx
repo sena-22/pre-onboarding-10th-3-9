@@ -2,11 +2,12 @@ import { FaSpinner, FaTrash } from 'react-icons/fa';
 import { useCallback, useState } from 'react';
 
 import { deleteTodo } from '../api/todo';
+import { Todo } from '../@types/todo';
 
 type TodoItemProps = {
   id: number;
   title: string;
-  setTodos: React.Dispatch<React.SetStateAction<any[]>>;
+  setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
 };
 
 const TodoItem = ({ id, title, setTodos }: TodoItemProps) => {
@@ -19,7 +20,9 @@ const TodoItem = ({ id, title, setTodos }: TodoItemProps) => {
 
       setTodos((prev) => prev.filter((item) => item.id !== id));
     } catch (error) {
+      // eslint-disable-next-line no-console
       console.error(error);
+      // eslint-disable-next-line no-alert
       alert('Something went wrong.');
     } finally {
       setIsLoading(false);
