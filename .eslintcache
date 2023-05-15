@@ -1,1 +1,729 @@
-[{"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/.eslintrc.js":"1","/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/@types/todo.ts":"2","/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/App.tsx":"3","/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/api/index.ts":"4","/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/api/todo.ts":"5","/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/Header.tsx":"6","/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/InputTodo.tsx":"7","/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/TodoItem.tsx":"8","/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/TodoList.tsx":"9","/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useFocus.ts":"10","/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/index.tsx":"11","/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/pages/Main.tsx":"12"},{"size":1110,"mtime":1684155369508,"results":"13","hashOfConfig":"14"},{"size":57,"mtime":1684154751679,"results":"15","hashOfConfig":"14"},{"size":117,"mtime":1684155044567,"results":"16","hashOfConfig":"14"},{"size":520,"mtime":1684155254801,"results":"17","hashOfConfig":"14"},{"size":716,"mtime":1684155238197,"results":"18","hashOfConfig":"14"},{"size":547,"mtime":1684155389405,"results":"19","hashOfConfig":"14"},{"size":1806,"mtime":1684155162891,"results":"20","hashOfConfig":"14"},{"size":1103,"mtime":1684155114257,"results":"21","hashOfConfig":"14"},{"size":483,"mtime":1684155389443,"results":"22","hashOfConfig":"14"},{"size":259,"mtime":1684155150478,"results":"23","hashOfConfig":"14"},{"size":195,"mtime":1684154989240,"results":"24","hashOfConfig":"14"},{"size":758,"mtime":1684155056142,"results":"25","hashOfConfig":"14"},{"filePath":"26","messages":"27","suppressedMessages":"28","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"1mwbcbh",{"filePath":"29","messages":"30","suppressedMessages":"31","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"32","messages":"33","suppressedMessages":"34","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"35","messages":"36","suppressedMessages":"37","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"38","messages":"39","suppressedMessages":"40","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"41","messages":"42","suppressedMessages":"43","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"44","messages":"45","suppressedMessages":"46","errorCount":1,"fatalErrorCount":0,"warningCount":3,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"47","messages":"48","suppressedMessages":"49","errorCount":0,"fatalErrorCount":0,"warningCount":3,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"50","messages":"51","suppressedMessages":"52","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"53","messages":"54","suppressedMessages":"55","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"56","messages":"57","suppressedMessages":"58","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"59","messages":"60","suppressedMessages":"61","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/.eslintrc.js",[],[],"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/@types/todo.ts",[],[],"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/App.tsx",[],[],"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/api/index.ts",[],[],"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/api/todo.ts",[],[],"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/Header.tsx",[],[],"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/InputTodo.tsx",["62","63","64","65"],[],"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/TodoItem.tsx",["66","67","68"],[],"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/TodoList.tsx",["69"],[],"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useFocus.ts",[],[],"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/index.tsx",[],[],"/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/pages/Main.tsx",[],[],{"ruleId":"70","severity":2,"message":"71","line":23,"column":47,"nodeType":"72","messageId":"73","endLine":23,"endColumn":49},{"ruleId":"74","severity":1,"message":"75","line":30,"column":18,"nodeType":"76","messageId":"77","endLine":30,"endColumn":49},{"ruleId":"78","severity":1,"message":"79","line":40,"column":9,"nodeType":"80","messageId":"77","endLine":40,"endColumn":22},{"ruleId":"74","severity":1,"message":"75","line":41,"column":9,"nodeType":"76","messageId":"77","endLine":41,"endColumn":39},{"ruleId":"81","severity":1,"message":"82","line":9,"column":49,"nodeType":"83","messageId":"84","endLine":9,"endColumn":52,"suggestions":"85"},{"ruleId":"78","severity":1,"message":"79","line":22,"column":7,"nodeType":"80","messageId":"77","endLine":22,"endColumn":20},{"ruleId":"74","severity":1,"message":"75","line":23,"column":7,"nodeType":"76","messageId":"77","endLine":23,"endColumn":37},{"ruleId":"81","severity":1,"message":"82","line":6,"column":49,"nodeType":"83","messageId":"84","endLine":6,"endColumn":52,"suggestions":"86"},"consistent-return","Expected to return a value at the end of async arrow function.","ArrowFunctionExpression","missingReturn","no-alert","Unexpected alert.","CallExpression","unexpected","no-console","Unexpected console statement.","MemberExpression","@typescript-eslint/no-explicit-any","Unexpected any. Specify a different type.","TSAnyKeyword","unexpectedAny",["87","88"],["89","90"],{"messageId":"91","fix":"92","desc":"93"},{"messageId":"94","fix":"95","desc":"96"},{"messageId":"91","fix":"97","desc":"93"},{"messageId":"94","fix":"98","desc":"96"},"suggestUnknown",{"range":"99","text":"100"},"Use `unknown` instead, this will force you to explicitly, and safely assert the type is correct.","suggestNever",{"range":"99","text":"101"},"Use `never` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",{"range":"102","text":"100"},{"range":"102","text":"101"},[246,249],"unknown","never",[163,166]]
+[
+  {
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/.eslintrc.js": "1",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/@types/todo.ts": "2",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/App.tsx": "3",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/api/index.ts": "4",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/api/todo.ts": "5",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/Header.tsx": "6",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/InputTodo.tsx": "7",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/TodoItem.tsx": "8",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/TodoList.tsx": "9",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useFocus.ts": "10",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/index.tsx": "11",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/pages/Main.tsx": "12",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/@types/search.ts": "13",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/api/search.ts": "14",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/Dropdown.tsx": "15",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/DropdownItem.tsx": "16",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/SearchIcon.tsx": "17",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/Searchbar.tsx": "18",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/contexts/SearchContext.tsx": "19",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/contexts/TodoContext.tsx": "20",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useBoolean.ts": "21",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useClickOutside.ts": "22",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useDebounce.ts": "23",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useSuggestion.ts": "24",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/utils/cache.ts": "25",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/utils/const.ts": "26",
+    "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/utils/debounce.ts": "27"
+  },
+  {
+    "size": 1110,
+    "mtime": 1684156136631,
+    "results": "28",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 57,
+    "mtime": 1684156136638,
+    "results": "30",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 351,
+    "mtime": 1684186120170,
+    "results": "31",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 570,
+    "mtime": 1684183557785,
+    "results": "32",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 716,
+    "mtime": 1684183573014,
+    "results": "33",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 547,
+    "mtime": 1684156136639,
+    "results": "34",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 2234,
+    "mtime": 1684184873888,
+    "results": "35",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 1277,
+    "mtime": 1684186044759,
+    "results": "36",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 484,
+    "mtime": 1684183722242,
+    "results": "37",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 259,
+    "mtime": 1684184019918,
+    "results": "38",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 195,
+    "mtime": 1684156136640,
+    "results": "39",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 731,
+    "mtime": 1684183761825,
+    "results": "40",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 98,
+    "mtime": 1684183548924,
+    "results": "41",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 230,
+    "mtime": 1684183566801,
+    "results": "42",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 587,
+    "mtime": 1684183610460,
+    "results": "43",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 1127,
+    "mtime": 1684183411231,
+    "results": "44",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 360,
+    "mtime": 1684183436967,
+    "results": "45",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 582,
+    "mtime": 1684183991166,
+    "results": "46",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 2082,
+    "mtime": 1684186174503,
+    "results": "47",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 2027,
+    "mtime": 1684163795470,
+    "results": "48",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 289,
+    "mtime": 1684183474981,
+    "results": "49",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 588,
+    "mtime": 1684183488478,
+    "results": "50",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 450,
+    "mtime": 1684183981051,
+    "results": "51",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 1038,
+    "mtime": 1684186112323,
+    "results": "52",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 1196,
+    "mtime": 1684184979583,
+    "results": "53",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 276,
+    "mtime": 1684183591757,
+    "results": "54",
+    "hashOfConfig": "29"
+  },
+  {
+    "size": 372,
+    "mtime": 1684183975735,
+    "results": "55",
+    "hashOfConfig": "29"
+  },
+  {
+    "filePath": "56",
+    "messages": "57",
+    "suppressedMessages": "58",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "1mwbcbh",
+  {
+    "filePath": "59",
+    "messages": "60",
+    "suppressedMessages": "61",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "62",
+    "messages": "63",
+    "suppressedMessages": "64",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "65",
+    "messages": "66",
+    "suppressedMessages": "67",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "68",
+    "messages": "69",
+    "suppressedMessages": "70",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "71",
+    "messages": "72",
+    "suppressedMessages": "73",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "74",
+    "messages": "75",
+    "suppressedMessages": "76",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "77",
+    "messages": "78",
+    "suppressedMessages": "79",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "80",
+    "messages": "81",
+    "suppressedMessages": "82",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "83",
+    "messages": "84",
+    "suppressedMessages": "85",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "86",
+    "messages": "87",
+    "suppressedMessages": "88",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "89",
+    "messages": "90",
+    "suppressedMessages": "91",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "92",
+    "messages": "93",
+    "suppressedMessages": "94",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "95",
+    "messages": "96",
+    "suppressedMessages": "97",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "98",
+    "messages": "99",
+    "suppressedMessages": "100",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "101",
+    "messages": "102",
+    "suppressedMessages": "103",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "104",
+    "messages": "105",
+    "suppressedMessages": "106",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "107",
+    "messages": "108",
+    "suppressedMessages": "109",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "110",
+    "messages": "111",
+    "suppressedMessages": "112",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "113",
+    "messages": "114",
+    "suppressedMessages": "115",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "116",
+    "messages": "117",
+    "suppressedMessages": "118",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "119",
+    "messages": "120",
+    "suppressedMessages": "121",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "122",
+    "messages": "123",
+    "suppressedMessages": "124",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "125",
+    "messages": "126",
+    "suppressedMessages": "127",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "128",
+    "messages": "129",
+    "suppressedMessages": "130",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "131",
+    "messages": "132",
+    "suppressedMessages": "133",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "134",
+    "messages": "135",
+    "suppressedMessages": "136",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/.eslintrc.js",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/@types/todo.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/App.tsx",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/api/index.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/api/todo.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/Header.tsx",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/InputTodo.tsx",
+  [],
+  [
+    "137",
+    "138",
+    "139",
+    "140"
+  ],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/TodoItem.tsx",
+  [],
+  [
+    "141",
+    "142",
+    "143"
+  ],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/TodoList.tsx",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useFocus.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/index.tsx",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/pages/Main.tsx",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/@types/search.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/api/search.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/Dropdown.tsx",
+  [],
+  [
+    "144"
+  ],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/DropdownItem.tsx",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/SearchIcon.tsx",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/components/Searchbar.tsx",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/contexts/SearchContext.tsx",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/contexts/TodoContext.tsx",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useBoolean.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useClickOutside.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useDebounce.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/hooks/useSuggestion.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/utils/cache.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/utils/const.ts",
+  [],
+  [],
+  "/Users/reina/Desktop/Apps/wanted/pre-onboarding-10th-3-9/src/utils/debounce.ts",
+  [],
+  [],
+  {
+    "ruleId": "145",
+    "severity": 2,
+    "message": "146",
+    "line": 27,
+    "column": 47,
+    "nodeType": "147",
+    "messageId": "148",
+    "endLine": 27,
+    "endColumn": 49,
+    "suppressions": "149"
+  },
+  {
+    "ruleId": "150",
+    "severity": 1,
+    "message": "151",
+    "line": 35,
+    "column": 18,
+    "nodeType": "152",
+    "messageId": "153",
+    "endLine": 35,
+    "endColumn": 49,
+    "suppressions": "154"
+  },
+  {
+    "ruleId": "155",
+    "severity": 1,
+    "message": "156",
+    "line": 46,
+    "column": 9,
+    "nodeType": "157",
+    "messageId": "153",
+    "endLine": 46,
+    "endColumn": 22,
+    "suppressions": "158"
+  },
+  {
+    "ruleId": "150",
+    "severity": 1,
+    "message": "151",
+    "line": 48,
+    "column": 9,
+    "nodeType": "152",
+    "messageId": "153",
+    "endLine": 48,
+    "endColumn": 39,
+    "suppressions": "159"
+  },
+  {
+    "ruleId": "155",
+    "severity": 1,
+    "message": "156",
+    "line": 24,
+    "column": 7,
+    "nodeType": "157",
+    "messageId": "153",
+    "endLine": 24,
+    "endColumn": 20,
+    "suppressions": "160"
+  },
+  {
+    "ruleId": "150",
+    "severity": 1,
+    "message": "151",
+    "line": 26,
+    "column": 7,
+    "nodeType": "152",
+    "messageId": "153",
+    "endLine": 26,
+    "endColumn": 37,
+    "suppressions": "161"
+  },
+  {
+    "ruleId": "162",
+    "severity": 2,
+    "message": "163",
+    "line": 38,
+    "column": 11,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 40,
+    "endColumn": 20,
+    "suppressions": "166"
+  },
+  {
+    "ruleId": "167",
+    "severity": 2,
+    "message": "168",
+    "line": 19,
+    "column": 28,
+    "nodeType": "169",
+    "messageId": "170",
+    "endLine": 19,
+    "endColumn": 31,
+    "suppressions": "171"
+  },
+  "consistent-return",
+  "Expected to return a value at the end of async arrow function.",
+  "ArrowFunctionExpression",
+  "missingReturn",
+  [
+    "172"
+  ],
+  "no-alert",
+  "Unexpected alert.",
+  "CallExpression",
+  "unexpected",
+  [
+    "173"
+  ],
+  "no-console",
+  "Unexpected console statement.",
+  "MemberExpression",
+  [
+    "174"
+  ],
+  [
+    "175"
+  ],
+  [
+    "176"
+  ],
+  [
+    "177"
+  ],
+  "react/button-has-type",
+  "Missing an explicit type attribute for button",
+  "JSXElement",
+  "missingType",
+  [
+    "178"
+  ],
+  "react/no-array-index-key",
+  "Do not use Array index in keys",
+  "Identifier",
+  "noArrayIndex",
+  [
+    "179"
+  ],
+  {
+    "kind": "180",
+    "justification": "181"
+  },
+  {
+    "kind": "180",
+    "justification": "181"
+  },
+  {
+    "kind": "180",
+    "justification": "181"
+  },
+  {
+    "kind": "180",
+    "justification": "181"
+  },
+  {
+    "kind": "180",
+    "justification": "181"
+  },
+  {
+    "kind": "180",
+    "justification": "181"
+  },
+  {
+    "kind": "180",
+    "justification": "181"
+  },
+  {
+    "kind": "180",
+    "justification": "181"
+  },
+  "directive",
+  ""
+]
